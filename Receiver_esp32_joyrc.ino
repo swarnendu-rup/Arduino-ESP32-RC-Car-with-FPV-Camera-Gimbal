@@ -51,8 +51,8 @@ GND (Brown/Black wire) -> L298N GND Terminal
 #define TILT_SERVO_PIN 2
 
 // --- Dead Zone for Joysticks ---
-#define JOY_DEADZONE_LOW 115
-#define JOY_DEADZONE_HIGH 140
+#define JOY_DEADZONE_LOW 80   //changed here joyrc
+#define JOY_DEADZONE_HIGH 130    //changed here joyrc
 
 // --- RF24 Setup ---
 RF24 radio(NRF_CE_PIN, NRF_CSN_PIN);
